@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: #f7a8c9
+}
+h1, ol, footer {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, hero {
+    font-size: 40px;
+}   
+header p1 {
+    font-size: 20px;
+}
+header p2 {
+    font-size: 30px;
+}
+h1, header p1, p2, hero  {
+    color: white;
+}
+ol {
+    font-size: 20px;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+img {
+    width: 40%;
+}
+h1:hover {
+    color: black
+  }
+
+footer {
+    font-size: 15px;
+}
