@@ -8,3 +8,90 @@ nav a, #hero-msg h1, hero-msg h4, .button-box, main section {
 #background {
     height: 725px;
 }
+body {
+    background-color: #539dca;
+}
+header {
+    background-color: #1a775f;
+}
+nav a:hover {
+        background-color: #eff2f2;
+}
+.book {
+    background-color: #eff2f2;
+}
+.join {
+    background-color: #b8d4dc;
+}
+.book:hover {
+    background-color: #b8d4dc;
+}
+.join:hover {
+    background-color: white;
+}
+.msg {
+    background-color: #eff2f2;
+}
+footer {
+    background-color: #1a775f;
+}
+footer a {
+    background-color: #b8d4dc;
+}
+footer a:hover {
+    background-color: #eff2f2;
+    text-decoration: underline;
+}
+nav a {
+    color: #eff2f2;
+}
+nav a:hover {
+    color: #2a3032;
+}
+h1 {
+    color: #eff2f2;
+}
+h4 {
+    color: #eff2f2;
+}
+.book {
+    color: #0e2f23;
+}
+.join {
+    color: #0e2f23;
+}
+.book:hover {
+    color: #000000;
+}
+.join:hover {
+    color: #000000;
+}
+.msg h2 {
+    color: #0e2f23;
+}
+.msg p {
+    color: #0e2f23;
+}
+footer {
+    color: #eff2f2;
+}
+footer a {
+    color: #2a3032;
+}
+footer a:hover {
+    color: #000000;
+}
+.logo, .icon {
+    width: 80px;
+} 
+#hero-img {
+    width: 100%;
+}
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+footer p {
+    font-size:1.2em;
+
+}
+
