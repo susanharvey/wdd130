@@ -1,6 +1,7 @@
 body {
     background-color: #539dca;
-}div {
+}
+div {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -33,9 +34,8 @@ h4 {
     color: #eff2f2;
     text-align: center;
 }
-.button, .book {
+.book {
     background-color: #eff2f2;
-    width: 70px;
     text-align: center;
     color: #0e2f23;
     text-decoration: none;
@@ -101,3 +101,5 @@ footer a:hover {
     background-color: #eff2f2;
     text-decoration: underline;
 }
+
+
