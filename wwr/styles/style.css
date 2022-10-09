@@ -34,11 +34,12 @@ h4 {
     color: #eff2f2;
     text-align: center;
 }
-#book {
+.book, .button, .button-box {
     background-color: #eff2f2;
-    text-align: center;
     color: #0e2f23;
+    text-align: center;
     text-decoration: none;
+    width: 70px;
 }
 book:hover {
     background-color: #b8d4dc;
