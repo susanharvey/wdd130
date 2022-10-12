@@ -38,25 +38,32 @@ nav a:hover {
     text-align: center;
 }
 .home-title {
-    color: #eff2f2;
-    text-align: center;
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
     font-size: 2em;
+    margin-top: 10px;
+}
+ h1 {
+    color: #eff2f2;
+    text-align: center;
     margin-top: 10px;
 }
 h4 {
     color: #eff2f2;
     text-align: center;
 }
-.book {
+
+.book, .join {
     background-color: #eff2f2;
     color: #0e2f23;
-    text-align: center;
     text-decoration: none;
-    width: 70px;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
+}                
+.book {
+    text-align: center;
+    width: 70px;
     border-radius: 5px;
 }
 book:hover {
@@ -75,24 +82,17 @@ book:hover {
     line-height: 1.5em;
     padding: 35px;
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: #0e2f23;
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
-    margin: 0;
 }
 .msg p {
     color: #0e2f23;
     font-size: .8em;
     padding-bottom: 15px
-}
-.join {
-    background-color: #b8d4dc;
-    color: #000000;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
 }
 .join:hover {
     background-color: white;
@@ -114,15 +114,17 @@ footer {
     background-color: #1a775f;
     color: #eff2f2;
     padding: 25px 50px;
-    margin: 200px;
+    margin-top: 200px;
 }
 footer p {
     font-size:1.2em;
 }
-footer .social img {
+footer a {
     background-color: #b8d4dc;
     color: #2a3032;
     text-decoration: none;
+}
+footer .social img {
     padding-top: 15px;
 }
 footer a:hover {
