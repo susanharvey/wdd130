@@ -1,14 +1,20 @@
+
 body{  
-    max-width: 800px;
+    width: 1280px;
     background-image: href="images/w05_circles.jpg";
     background-color: #737373;
 }
 footer {
     background-color: #737373;
     padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
 }
 footer img {
+    margin: 0 auto;
     border: 5px solid #535353;
     border-radius: 50%;
-    width: 30%;
+    width: 200px;
 }

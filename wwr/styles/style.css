@@ -31,7 +31,7 @@ nav a:hover {
     background-color: #eff2f2;
     color: #2a3032;
 }
-#hero-img {
+#hero_img {
     width: 100%;
 }
 #hero-message {
@@ -51,7 +51,9 @@ h4 {
     color: #eff2f2;
     text-align: center;
 }
-
+.button-box {
+    text-align: center;
+}
 .book, .join {
     background-color: #eff2f2;
     color: #0e2f23;
