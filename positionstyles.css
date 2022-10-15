@@ -96,33 +96,34 @@
   .content4 {
     /* This is the parent of the activity 4 boxes. */
     height: 400px;
+    width: 600px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 .red4 {
-width: 200px; 
+width: 300px; 
 height: 100%; 
 background-color: red; 
 grid-column: 1/2;
 grid-row: 1/4;
  } 
 .green4 {
-width: 240px; 
+width: 300px; 
 height: 1fr; 
 background-color: green; 
 grid-column: 2/3;
 grid-row: 1/2;
 } 
 .yellow4 {
-width: 240px; 
+width: 300px; 
 height: 1fr; 
 background-color: gold; 
 grid-column: 2/3;
 grid-row: 2/3;
  } 
 .blue4 {
-width: 240px; 
+width: 300px; 
 height: 1fr; 
 background-color: blue; 
 grid-column: 2/3;
