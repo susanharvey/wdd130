@@ -42,10 +42,12 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
 }  
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
+    z-index: -1;
 }                  
 #hero_img {
     width: 100%;
@@ -54,6 +56,7 @@ nav a:hover {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-top: 100px;
 }
 .home-title {
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
