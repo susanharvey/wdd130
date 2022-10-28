@@ -241,10 +241,16 @@ footer a:hover {
     #background {
         display: none;
     }
+    .msg {
+        background-color: #539dca;
+    }
     .mountains, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .join:hover {
+        background-color: #1a775f;
     }
     footer {
         margin-top: 25px;
