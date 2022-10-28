@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #eff2f2;
+    background-color: #539dca;
     font-family: "Open Sans", "Helvetica", Arial;
     font-size: 22px;
     margin: 0;
@@ -109,7 +109,7 @@ nav a:hover {
     grid-template-columns: repeat(10, 1fr);
 }
 #background {
-    background-color: #539dca;
+    background-color: #367aa4;
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -129,7 +129,7 @@ nav a:hover {
 }
 h2 {
     margin: 0;
-    color: #1a775f;
+    color: #ffffff;
 }
 .msg  h2 {
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
@@ -189,16 +189,16 @@ footer p {
     font-size:1.2em;
 }
 footer a {
-    background-color: #539dca;
-    color: #ffffff;
+    color: #1a775f;
+    background-color: #eff2f2;
     text-decoration: none;
 }
 footer .social img {
     padding-top: 15px;
 }
 footer a:hover {
-    color: #1a775f;
-    background-color: #eff2f2;
+    background-color: #539dca;
+    color: #ffffff;
     text-decoration: underline;
 }
 @media screen and (max-width: 900px) {
@@ -224,11 +224,11 @@ footer a:hover {
     }
     .home-title {
         font-size: 25px;
-        color: #1a775f;
+        color: #ffffff;
     }
     .book {
-        background-color: #539dca;
-        color: #ffffff;
+        background-color:   #ffffff;
+        color: #1a775f;
     }
     .book:hover {
         background-color: #1a775f;
@@ -241,16 +241,13 @@ footer a:hover {
     #background {
         display: none;
     }
-    .msg {
-        background-color: #539dca;
-    }
     .mountains, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
     }
     .join:hover {
-        background-color: #1a775f;
+        background-color: #539dca;
     }
     footer {
         margin-top: 25px;
