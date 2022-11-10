@@ -209,6 +209,7 @@ footer a:hover {
     grid-template-rows: auto auto auto auto; 
     column-gap: 20px;
     row-gap: 15px;
+    border: 10px solid #1a775f;
 }
 .title-msg h1 {
     border: 10px solid #1a775f;
@@ -227,32 +228,42 @@ h3, h4 {
     margin: 0;
     color: #ffffff;
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .summer-book-now {
+    padding: 20px;
     max-width: 80%;
     margin: 0 auto;
     
 }
 .summer-book-now p {
-    color: #ffffff;
-    font-size: .8em;
+    color: #fff;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 .highlights  {
     border: 10px solid #1a775f;
     max-width: 95%;
+    padding: 20px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 .highlights p {
     color: #ffffff;
     max-width: 85%;
-    font-size: .8em;
+    font-size: 1em;
     margin: 20px  auto;
 }    
 .encounters {
-    background-color: #367aa4;
+    border: 10px solid #1a775f;
     grid-column: 2/3;
     grid-row: 1/5;
+    padding: 20px;
+    margin-right: 20px;
 }
 .encounters h2 {
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
@@ -260,6 +271,16 @@ h3, h4 {
     padding: 5px;
     margin-top: -66px;
     z-index: 3;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#encounter-background {
+    background-color: #367aa4;
+    grid-column: 2/3;
+    grid-row: 3/5;
 }
 .encounters p {
     color: #ffffff;
@@ -267,9 +288,13 @@ h3, h4 {
     padding: 10px;
 }
 #warning {
-    background-color:  #1a775f;
-    font-size: 1em;
+    background-color: #367aa4;
+    border: 10px solid #1a775f;
+    font-size: 1.2em;
+    padding: 20px;
     margin: auto;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }    
     .encounters h2 {
     font-family: "Permanent Marker", "Dejavu Sans", sans-serif;
