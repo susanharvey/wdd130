@@ -245,7 +245,6 @@ h3, h4 {
     padding-bottom: 15px;
 }
 .highlights  {
-    border: 10px solid #1a775f;
     max-width: 95%;
     padding: 20px;
     margin-top: 30px;
@@ -258,7 +257,6 @@ h3, h4 {
     margin: 20px  auto;
 }    
 .encounters {
-    border: 10px solid #1a775f;
     grid-column: 2/3;
     grid-row: 1/3;
     padding: 20px;
