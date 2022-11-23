@@ -142,7 +142,7 @@ footer a:hover {
     }
     main {
         font-size: 80%;
-        width: 95%;
+        width: 100%;
     }
     #p1 {
         margin-top: 10px;
@@ -154,6 +154,9 @@ footer a:hover {
             color: #2d4e76;
             text-shadow: none;
             margin-left: 0;
+    }
+    aside {
+        margin-left: 20px;
     }
 }  
     
