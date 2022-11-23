@@ -155,10 +155,10 @@ footer a:hover {
         color:#2d4e76;
         text-shadow: none;
     }
-        #p2, #p3 {
-            color: #2d4e76;
-            text-shadow: none;
-            margin-left: 0;
+    #p2, #p3 {
+        color: #2d4e76;
+        text-shadow: none;
+        margin-left: 0;
     }
     aside {
         margin-left: 20px;
