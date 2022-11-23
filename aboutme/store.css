@@ -18,7 +18,7 @@ body {
 }
 h1 {
     font-family: Gabriela, Garamond, serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
 }
 header {
@@ -37,24 +37,22 @@ header {
     border-right: 10px solid #a2c8e8;
 }
 nav {
-    border: 5px solid #a2c8e8;
+    border: 10px solid #a2c8e8;
     grid-column: 1/2;
     grid-row: 2/10;
     color: #a2c8e8;
     background-color: #2d4e76;
-    text-align: center;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-}  
+    text-align: center;;
+}
 nav a {
-    display: flex;
+    display: flex;;
     justify-content: center;
     color: #eeecf5;
     text-decoration: none;
     font-size: .75em;
     padding: 5px;
     line-height: 3em;
+    margin: 65% .5em;
 }
 nav a:hover {
     border: 5px solid #a2c8e8;
@@ -72,6 +70,7 @@ main {
 #banner-img {
     width: 100%;
     margin-top: .5em;
+
 }
 #p1 {
     margin-top: -60%;
@@ -95,19 +94,16 @@ main {
     1px 1px 0 #2d4e76;
 }
 aside {
-    border: 5px solid #2d4e76;
+    border: 10px solid #2d4e76;
     background-color: #a893c2;
     color:#2d4e76;
-    font-size: 85%;
+    font-size: 100%;
     font-weight: bold;
     grid-column: 8/9;
     grid-row: 2/10;
     width: 94%;
     text-align: center;
     padding-top: 10px;
-}
-#SLH {
-    padding: 10px;
 }
 #home-aside-img {
     width: 95%;
@@ -138,7 +134,7 @@ footer a:hover {
     color: #2d4e76;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 900px) {
     h1 {
         font-size: 100%;
     }
@@ -165,3 +161,5 @@ footer a:hover {
         width: 82%;
     }
 }  
+    
+
