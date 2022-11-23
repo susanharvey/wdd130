@@ -6,6 +6,7 @@ body {
     font-size: 1.5em;
     margin: 5px;
     padding: 5px;
+    max-width: 1600;
 }
 .home-grid {
     display: grid;
@@ -134,14 +135,14 @@ footer a:hover {
 
 @media screen and (max-width: 900px) {
     h1 {
-        font-size: 80%;
+        font-size: 100%;
     }
     nav {
         padding-top: 1.5em;
     }
     main {
         font-size: 80%;
-        width: 25em;
+        width: 95%;
     }
     #p1 {
         margin-top: 10px;
