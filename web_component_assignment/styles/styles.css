@@ -1,0 +1,41 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+/* The sidebar menu */
+.sidenav {
+    width: 130px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 20px; /* Stay at the top */
+    left: 10px;
+    background-color: #eee; /* gray*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 8px 0;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196f3;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 140px; /* Same as the width of the sidebar */
+    font-size: 28px; /* Increased text to enable scrolling  + left position in px*/
+    padding: 0px 10px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
