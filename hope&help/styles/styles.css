@@ -69,12 +69,16 @@ main {
     font-weight: bold;
     text-align: center;
 }
+.home-title {
+    color: #2d4e76;
+    font-size: 1.75em;
+}
 #banner-img {
     width: 100%;
-    margin-top: .5em;
+    margin-bottom: 4.3em;
 }
 #p1 {
-    margin-top: -60%;
+    margin-top: -75%;
     color: #fff;
     font-weight: bolder;
     text-shadow:
@@ -86,6 +90,7 @@ main {
 #p2, #p3 {
     color: #fff;
     font-weight: bolder;
+    margin-top: 2em;
     margin-left: 35%;
     padding-right: 20px;
     text-shadow:
@@ -93,6 +98,49 @@ main {
     1px -1px 0 #2d4e76,
     -1px 1px 0 #2d4e76,
     1px 1px 0 #2d4e76;
+}
+#lifestyle {
+    color: #2d4e76;
+}
+#food {
+    border-radius: 15px 50px;
+    width: 25%;
+    margin-left: -70%;
+}
+#p7 {
+    font-family: Gabriela, Garamond, serif;
+    font-size: 1.25em;
+    margin-top: -35%;
+    margin-left: 27%;
+    line-height: 2em;
+}
+#p7, #lifestyle-list, #p8 {
+    font-weight: bolder;
+    padding: 3%;
+}
+#lifestyle-list {
+    font-size: 1.1em;
+    margin-top: 5%;
+    text-align: left;
+}
+#p8 {
+    font-family: Gabriela, Garamond, serif;
+    font-size: 1.15em;
+}
+#resources {
+    color: #2d4e76;
+    margin-top: 3em;
+}
+.page-title {
+    font-family: Gabriela, Garamond, serif;
+}
+#resource-list {
+    font-family: Gabriela, Garamond, serif;
+    color: #655874;
+    font-size: 125%;
+}
+#book-list {
+    color: #655874;
 }
 aside {
     border: 5px solid #2d4e76;
@@ -109,9 +157,19 @@ aside {
 #SLH {
     padding: 10px;
 }
+#BG {
+    font-size: .9em;
+}
+#DJ {
+    font-size: 1.1em;
+}
 #home-aside-img {
     width: 95%;
-    margin-top: 1em;
+    margin-top: 1.5em;
+}
+.aside-imgs {
+    width: 95%;
+    margin-top: .3em;
 }
 footer {
     border: 10px solid #a2c8e8;
@@ -150,7 +208,7 @@ footer a:hover {
         width: 100%;
     }
     #p1 {
-        margin-top: 20px;
+        margin-top: -20%;
         margin-left: 0;
         color:#2d4e76;
         text-shadow: none;
@@ -158,10 +216,32 @@ footer a:hover {
     #p2, #p3 {
         color: #2d4e76;
         text-shadow: none;
-        margin-left: 0;
+        margin-left: .5em;
     }
     aside {
         margin-left: 20px;
         width: 82%;
+    }
+    #SLH {
+        font-size: 1.15em;
+    }
+    .aside-imgs {
+        margin-top: 1.5em;
+    }
+    #resources {
+        margin-top: 1em;
+    } 
+    #food {
+        width: 40%;
+        margin-left: -55%;
+    }
+    #p7 {
+        font-size: 1.25em;
+        margin-top: -65%;
+        margin-left: 40%;
+        line-height: 1em;
+    }
+    #lifestyle-list {
+        margin-left: .7em;
     }
 }  
