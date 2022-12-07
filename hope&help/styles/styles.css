@@ -122,6 +122,7 @@ main {
     font-size: 1.1em;
     margin-top: 5%;
     text-align: left;
+    line-height: 140%;
 }
 #p8 {
     font-family: Gabriela, Garamond, serif;
@@ -141,6 +142,36 @@ main {
 }
 #book-list {
     color: #655874;
+}
+#professional-help {
+    color:#2d4e76;
+    line-height: 150%;
+}
+#p9 {
+    font-size: 110%;
+    line-height: 160%;
+}
+#p10 {
+    font-family: Gabriela, Garamond, serif;
+    color: #655874;
+    font-size: 110%;
+}
+#helpful-tips {
+    font-size: 1.05em;
+    margin-top: 5%;
+    text-align: left;
+    line-height: 140%;
+}
+#p11{
+    font-family: Gabriela, Garamond, serif;
+    color: #655874;
+    font-size: 130%;
+    margin-top: 7%;
+}
+#find-help {
+    font-size: 125%;
+    line-height: 150%;
+    margin-top: -.5em;
 }
 aside {
     border: 5px solid #2d4e76;
@@ -162,6 +193,10 @@ aside {
 }
 #DJ {
     font-size: 1.1em;
+}
+#BE {
+    font-size: 1.15em;
+    padding: 2%;
 }
 #home-aside-img {
     width: 95%;
@@ -219,11 +254,16 @@ footer a:hover {
         margin-left: .5em;
     }
     aside {
-        margin-left: 20px;
+        margin-left: 15px;
         width: 82%;
+        padding: 0 3%;
     }
     #SLH {
         font-size: 1.15em;
+    }
+    #BE {
+        font-size: 120%;
+        margin-top: 0;
     }
     .aside-imgs {
         margin-top: 1.5em;
@@ -243,6 +283,28 @@ footer a:hover {
     }
     #lifestyle-list {
         margin-left: .7em;
+    }
+    #professional-help {
+        margin-top: 1em;
+        line-height: 100%;
+        font-size: 100%;
+        padding: 1%;
+    }
+    #p8 {
+        font-size: 140%;
+    }
+    #p9 {
+        font-size: 110%;
+    }
+    #helpful-tips {
+        line-height: 120%;
+        margin-top: 15%;
+    }
+    #find-help {
+        font-family: Gabriela, Garamond, serif;
+        font-size: 90%;
+        color: #655874;
+        line-height: 160%;
     }
     footer {
         font-size: 1em;
